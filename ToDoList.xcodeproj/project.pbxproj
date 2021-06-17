@@ -14,6 +14,7 @@
 		93BC5EB2267BA41D0051BCEA /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC5EB1267BA41D0051BCEA /* ListView.swift */; };
 		93BC5EB4267BA9130051BCEA /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC5EB3267BA9130051BCEA /* ListRowView.swift */; };
 		93BC5EB6267BAE250051BCEA /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC5EB5267BAE250051BCEA /* AddView.swift */; };
+		93BC5EB9267BD71D0051BCEA /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC5EB8267BD71D0051BCEA /* ItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		93BC5EB1267BA41D0051BCEA /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		93BC5EB3267BA9130051BCEA /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		93BC5EB5267BAE250051BCEA /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		93BC5EB8267BD71D0051BCEA /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 		93BC5E8E267B9A560051BCEA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				93BC5EB0267BA4090051BCEA /* View */,
+				93BC5EB7267BD6FF0051BCEA /* Models */,
+				93BC5EB0267BA4090051BCEA /* Views */,
 				93BC5E8F267B9A560051BCEA /* ToDoListApp.swift */,
 				93BC5E91267B9A570051BCEA /* Assets.xcassets */,
 			);
@@ -93,14 +96,22 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		93BC5EB0267BA4090051BCEA /* View */ = {
+		93BC5EB0267BA4090051BCEA /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				93BC5EB1267BA41D0051BCEA /* ListView.swift */,
 				93BC5EB5267BAE250051BCEA /* AddView.swift */,
 				93BC5EB3267BA9130051BCEA /* ListRowView.swift */,
 			);
-			path = View;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93BC5EB7267BD6FF0051BCEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93BC5EB8267BD71D0051BCEA /* ItemModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BC5EB9267BD71D0051BCEA /* ItemModel.swift in Sources */,
 				93BC5EB6267BAE250051BCEA /* AddView.swift in Sources */,
 				93BC5EA2267B9A570051BCEA /* ToDoListApp.swift in Sources */,
 				93BC5EB2267BA41D0051BCEA /* ListView.swift in Sources */,
