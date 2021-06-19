@@ -30,7 +30,6 @@ class ListViewModel: ObservableObject {
         getItems()
     }
     func getItems() {
-        
         guard
             let data = UserDefaults.standard.data(forKey: itemsKey),
             let savedItems = try? JSONDecoder().decode([ItemModel].self, from: data)
